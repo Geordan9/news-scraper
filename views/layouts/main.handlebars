@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Headline Scraper</title>
+</head>
+
+<body bgcolor="#0D0505">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <span class="brand-logo">News Scraper: Fox News</span>
+                <a href="#" data-target="mobile-demo" class="right sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav fixed" id="mobile-demo">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/login">Login</a>
+            </li>
+        </ul>
+    </div>
+
+    {{{ body }}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

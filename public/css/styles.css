@@ -1,0 +1,30 @@
+.brand-icon {
+    height: 100%;
+    padding: 5px 5px;
+}
+
+nav > div {
+    background-color: #800000D0;
+}
+
+.card {
+    background-color: #600000FF
+}
+
+.btn-small{
+    background-color: #D00000FF;
+}
+
+.preloader-wrapper {
+    margin: 10px;
+}
+
+.card-panel {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #400000FF;
+}
